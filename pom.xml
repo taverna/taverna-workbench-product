@@ -2568,7 +2568,7 @@
                         <snapshots />
                 </repository>
                 <repository>
-                    <id>aduna-software</id>
+                    <id>aduna-opensource.releases</id>
                     <name>Aduna Open Source - Maven releases</name>
 <!--
                     <url>http://repo.aduna-software.org/maven2/releases</url>
@@ -2582,18 +2582,18 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>aduna-opensource.releases</id>
-                    <name>Aduna Open Source - Maven releases</name>
-<!--
-                    <url>http://repo.aduna-software.org/maven2/releases</url>
--->
-                        <url>http://build.mygrid.org.uk/maven/aduna</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
+                    <id>aduna-software</id>
+                    <name>Aduna Open Source - Maven releases</name>
+<!--
+                    <url>http://repo.aduna-software.org/maven2/releases</url>
+-->
+                        <url>http://build.mygrid.org.uk/maven/aduna</url>
                 </repository>
                 <repository>
                     <id>astrotaverna</id>

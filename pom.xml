@@ -5,7 +5,7 @@
         <parent>
                 <groupId>net.sf.taverna</groupId>
                 <artifactId>taverna-parent</artifactId>
-                <version>2.5.0</version>
+                <version>2.6-SNAPSHOT</version>
         </parent>
         <groupId>net.sf.taverna.t2.taverna-workbench</groupId>
 	<artifactId>taverna-workbench-${edition}</artifactId>
@@ -539,7 +539,7 @@
         
                 <dependency>
                         <groupId>net.sf.taverna.t2.ui-activities</groupId>
-                        <artifactId>common-activity-uis</artifactId>
+                        <artifactId>common-activities-ui</artifactId> <!--common-activity-uis in earlier versions-->
                         <version>${t2.ui.activities.version}</version>
                         <scope>test</scope>
                 </dependency>

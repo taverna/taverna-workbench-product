@@ -2568,7 +2568,7 @@
                         <snapshots />
                 </repository>
                 <repository>
-                    <id>aduna-software</id>
+                    <id>aduna-opensource.releases</id>
                     <name>Aduna Open Source - Maven releases</name>
 <!--
                     <url>http://repo.aduna-software.org/maven2/releases</url>
@@ -2582,7 +2582,7 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>aduna-opensource.releases</id>
+                    <id>aduna-software</id>
                     <name>Aduna Open Source - Maven releases</name>
 <!--
                     <url>http://repo.aduna-software.org/maven2/releases</url>
